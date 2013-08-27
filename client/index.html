@@ -4,7 +4,11 @@
 
 <body>	
 	{{> text_area}}
+	{{> text_result}}
 </body>
 <template name="text_area">
-	<p><textarea id="main_text" rows="20" cols="100">{{result}}</textarea></p>
+	<p><textarea id="main_text" rows="10" cols="100">{{result}}</textarea></p>
+</template>
+<template name="text_result">
+	<p><textarea rows="10" cols="100">{{result}}</textarea></p>
 </template>
